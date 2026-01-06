@@ -65,10 +65,10 @@ int main() {
 
     PermanentEmployee p1(1, "Rahul", 40000);
     ContractEmployee c1(10, "Raman", 580.5, 8.5);
-
+    cout<<"test srage\n";
     p1.display();
     c1.display();
 
     return 0;
-    
+
 }
