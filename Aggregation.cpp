@@ -15,6 +15,7 @@ public:
 };
 
 class Department {
+    
 public:
     Teacher *t;   
 
