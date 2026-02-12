@@ -24,6 +24,8 @@ int main() {
             min = arr[i];
     }
 
+
+    
     cout << "Maximum = " << max << endl;
     cout << "Minimum = " << min;
 
