@@ -23,6 +23,7 @@ class creditcard: public Payment{
 };
 int main(){
     int choice;
+    
     Payment* payment= nullptr;
     cout<<"choose a payment method:\n";
     cout<<"1.upi\n";
