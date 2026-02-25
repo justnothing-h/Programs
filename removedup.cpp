@@ -25,6 +25,7 @@ int main() {
             }
         }
 
+        
         if(!duplicate)
             cout << arr[i] << " ";
     }
