@@ -7,6 +7,7 @@ int main() {
     cin >> n;
 
     int arr[100];
+    
     int sum = 0;
 
     cout << "Enter elements:\n";
