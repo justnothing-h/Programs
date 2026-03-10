@@ -7,6 +7,7 @@ int main() {
 
     if(myVar == 2) {
         printf("Processing Medium Priority Task...");
+        
     }
     return 0;
 }
