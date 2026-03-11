@@ -24,5 +24,6 @@ int main() {
     else
         cout << "Not a Prime Number";
 
+        
     return 0;
 }
