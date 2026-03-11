@@ -18,6 +18,7 @@ int main() {
             odd++;
     }
 
+    
     cout << "Even numbers = " << even << endl;
     cout << "Odd numbers = " << odd;
 
