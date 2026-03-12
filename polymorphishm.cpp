@@ -30,6 +30,8 @@ class square : public shape{
         cout << "enter side: ";
         cin >> side;
     }
+
+    
 };
 int main(){
     shape* s1;
