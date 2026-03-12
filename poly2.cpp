@@ -19,6 +19,8 @@ class cat : public animal {
 
     }
 };
+
+
 int main(){
     animal* a1;
     animal* a2;
