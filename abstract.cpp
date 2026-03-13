@@ -43,4 +43,6 @@ int main(){
     }
     payment ->makepayment();
     delete payment;
+
+    
 }
