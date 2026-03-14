@@ -24,6 +24,7 @@ int main(){
 Area a;
 
 cout<<"Area of square = "<<a.area(4)<<endl;
+
 cout<<"Area of rectangle = "<<a.area(4,5)<<endl;
 cout<<"Area of circle = "<<a.area(3.5f);
 
