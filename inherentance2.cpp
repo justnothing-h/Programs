@@ -29,6 +29,8 @@ class Director: public Manager{
         cout<<"Name: "<<name<<", ID: "<<id<<", Team Size: "<<teamsize<<", Budget: "<<budget<<endl;
     }
 };
+
+
 int main(){
     Director d1("Alice", 1, 10, 50000);
     d1.display();
