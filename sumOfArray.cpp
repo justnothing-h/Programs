@@ -11,10 +11,12 @@ int main() {
     int sum = 0;
 
     cout << "Enter elements:\n";
-    for(int i = 0; i < n; i++) {
+    for(int i = 0; i < n; i++) {// loop to read elements and calculate sum
         cin >> arr[i];
         sum += arr[i];
     }
+
+
 
     cout << "Sum of elements = " << sum;
 
