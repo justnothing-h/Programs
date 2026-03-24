@@ -10,7 +10,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
         int complement = target - nums[i];
 
         // Check if complement exists
-        if (mp.find(complement) != mp.end()) {
+        if (mp.find(complement) != mp.end()) {// if found, return indices
             return {mp[complement], i};
         }
 
@@ -20,6 +20,8 @@ vector<int> twoSum(vector<int>& nums, int target) {
 
     return {}; // no solution
 }
+
+
 
 int main() {
     vector<int> nums = {2, 7, 11, 15};
