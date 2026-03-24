@@ -19,7 +19,9 @@ int firstUnique(vector<int>& nums) {
 
 int main() {
 
-    vector<int> nums = {4,5,1,2,0,4,1,0};
+
+
+    vector<int> nums = {4,5,1,2,0,4,1,0};//{1,2,3,4,5,6,7,8,9};
 
     cout << firstUnique(nums);
 }
