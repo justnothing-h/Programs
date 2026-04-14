@@ -32,6 +32,8 @@ int main() {
         {0,1,0,0,0}
     };
 
+    
+
     int visited[5] = {0};
 
     BFS(graph, 0, visited);
